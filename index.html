@@ -7,27 +7,42 @@
     <script src="javascripts/swiper-bundle.min.js"></script>
   </head>
   <body>
-    <h1>
-      NHK-gakuennsai WAIGAYA Paege
-    </h1>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img src="images/image_1.jpg">
-        </div>
-        <div class="swiper-slide">
-          <img src="images/image_2.jpg">
-        </div>
-        <div class="swiper-slide">
-          <img src="images/image_3.jpg">
-        </div>
-        <div class="swiper-slide">
-          <img src="images/image_4.jpg">
-        </div>
+    <div class="container">
+      <div class="title">
+        <h1>
+          NHK-gakuennsai WAIGAYA Paege
+        </h1>
       </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/image_1.jpg">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/image_2.jpg">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/image_3.jpg">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/image_4.jpg">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+      <fotter>
+        footer
+      </fotter>
     </div>
     <script>
-      var mySwiper = new Swiper ('.swiper-container', {});
+      var mySwiper = new Swiper ('.swiper-container', {
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+        }
+      });
     </script>
+    
   </body>
 </html>

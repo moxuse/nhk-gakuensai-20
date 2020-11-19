@@ -5,4 +5,16 @@ body {
 img {
   margin: 0;
   width: 100%;
+  object-fit: contain;
+}
+
+.container {
+  height: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+footer {
+  flex-flow: bottom;
 }
