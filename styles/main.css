@@ -25,14 +25,14 @@ a {
 }
 
 .title h1 {
-  font-size: 40px;
+  font-size: 36px;
   flex-flow: row;
   width: 60%;
   margin-left: 20px;
 }
 
 .title h2 {
-  font-size: 32px;
+  font-size: 26px;
   flex-flow: row;
   right: 0px;
   display: inline-block;
