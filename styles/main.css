@@ -25,16 +25,18 @@ a {
 }
 
 .title h1 {
+  font-size: 38px;
   flex-flow: row;
   width: 60%;
   margin-left: 20px;
 }
 
 .title h2 {
+  font-size: 26px;
   flex-flow: row;
-    right: 0px;
-    display: inline-block;
-    padding-top: 5px;
+  right: 0px;
+  display: inline-block;
+  padding-top: 9px;
 }
 
 .footer {
